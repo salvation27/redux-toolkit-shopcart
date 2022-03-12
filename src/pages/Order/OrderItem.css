@@ -1,0 +1,17 @@
+.order_item{
+    align-items: center;
+    justify-content: space-between;
+}
+.order_item_foto img {
+    width: 200px;
+}
+.order_item_foto {
+    margin-right: 30px;
+}
+.order_item_delete {
+    cursor: pointer;
+    transition: .3s;
+}
+.order_item_delete:hover {
+    color: brown;
+}

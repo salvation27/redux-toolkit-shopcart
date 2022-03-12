@@ -1,0 +1,13 @@
+.item_card {
+    border: 1px solid rgba(255, 255, 255, 0.198);
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 40px;
+  }
+  .item_card_foto img {
+    width:100%;
+    /* object-fit: contain; */
+    height: 100%;
+    object-fit: fill;
+  }

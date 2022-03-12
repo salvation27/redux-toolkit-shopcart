@@ -1,0 +1,31 @@
+.ganres_item{
+  margin-right: 10px;
+  background: rgb(18, 122, 163);
+  padding: 10px;
+}
+.detail_ganres{
+ display: flex;
+}
+.detail_page_price {
+    font-size: 24px;
+}
+.detail_page_price  span{
+   color: greenyellow;
+}
+.detail_page_foto img {
+    width: 100%;
+    height: auto;
+}
+.left_wrap {
+   width: 60%;
+}
+.rigth_wrap {
+    width: 40%;
+    margin-left: 50px;
+ }
+.datail_descr {
+    justify-content: space-between;
+}
+.detail_btn {
+    margin-top: 20px;
+}

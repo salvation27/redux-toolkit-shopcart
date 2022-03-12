@@ -1,0 +1,11 @@
+.del_cart {
+    cursor: pointer;
+    transition: .3s;
+}
+.del_cart:hover{
+    cursor: pointer;
+    color: brown;
+}
+.del_price {
+    margin-left: 20px;
+}

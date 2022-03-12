@@ -1,0 +1,17 @@
+.cart_block {
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 30px;
+    left: 100%;
+    z-index: 20;
+    width: 350px;
+    margin-left: -350px;
+    z-index: 100;
+    background: rgb(36, 38, 43);
+    padding: 10px;
+    border-radius: 10px;
+}
+.cart_block_total_price {
+    display: flex;
+    justify-content: space-between;
+}

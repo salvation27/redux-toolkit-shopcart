@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(25,26,28);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App{
+  max-width: 1180px;
+  margin:0 auto;
+  padding: 0 40px;
+  color: #fff;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+ul,li {
+  display: block;
+}
+.dflex {
+display: flex;
+}
+.menu ul li  {
+  margin-right: 10px;
+}
+.menu ul li  a {
+  color: aqua;
+}
+.menu ul li  a:hover {
+  color: rgb(226, 9, 215);
+}
+.header {
+justify-content: space-between;
+padding: 20px 0px;
+}
+.logo {
+  font-size: 20px;
+}
+.cart_menu svg {
+  font-size: 24px;
+}
+.cart_menu {
+  align-items: center;
+}
+.cart_menu  span{
+  margin-left: 10px;
+}
+.card_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.item_card_descr {
+  padding: 5px 10px;
+}
+.item_card_title {
+  margin-bottom: 10px;
+}
+.item_card_price_btn {
+  margin-left: 20px;
+  width: 100px;
+  height: 25px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: .3s;
+}
+.item_card_price_btn:hover {
+  background: rgb(35, 3, 151);
+}
+.item_card_price {
+  margin-top: 20px;
+}
+.item_card_price {
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 40xp;
+}
+.item_card_descr {
+  background: rgb(46, 41, 41);
+}
+.item_card_foto {
+  height: 170px;
+}
+.item_card_title {
+  font-size: 23px;
+  color: blueviolet;
+}
+.order_total {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,17 @@
+.btn_small {
+    width: 160px;
+}
+.btn_medium {
+    width: 180px;
+}
+.btn_secondary {
+    background: rgb(3, 151, 3);
+    font-size: 20px;
+}
+.btn_primary {
+    background: rgb(35, 3, 151);
+    font-size: 18px;
+}
+.btn_haigth {
+    height: 50px;
+}
